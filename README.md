@@ -5,7 +5,7 @@ A script for scraping and saving proxies using the ProxyScrape API.
 ## Usage
 
 ```shell
-python proxy_scraper.py [request] [options]
+'''python proxy_scraper.py [request] [options]'''
 
 ## Arguments
 request: Specify the request type (displayproxies or getproxies)
@@ -20,16 +20,18 @@ Options
 ## Installation
 Clone the repository:
 
-git clone https://github.com/your-username/proxy-scraper.git
+'''git clone https://github.com/your-username/proxy-scraper.git'''
 
 Navigate to the project directory:
-cd proxy-scraper
+'''cd proxy-scraper'''
 
 
 Install the required dependencies:
 
 Examples
-Scrape and save proxies with default options:
-shell
+- Scrape and save proxies with default options:
+  shell
+'''python proxy_scraper.py displayproxies'''
+
 
 
