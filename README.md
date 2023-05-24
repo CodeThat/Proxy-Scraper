@@ -1,6 +1,6 @@
 # Proxy Scraper
 
-A script for scraping and saving proxies using the [a link]proxyscrape.com ProxyScrape API.
+A script for scraping and saving proxies using the [ProxyScrape API](proxyscrape.com).
 
 ## Usage
 
@@ -22,18 +22,23 @@ Options
 ```git clone https://github.com/your-username/proxy-scraper.git```
 
 2. Navigate to the project directory:
+
 ```cd proxy-scraper```
 
-
 3. Install the required dependencies:
+
 ```pip install -r requirements.txt```
 
 Examples
 - Scrape and save proxies with default options:
   shell
 ```python proxy_scraper.py displayproxies```
+
 - Save and scrape proxies
 ```python proxy_scraper.py displayproxies --protocol http --timeout 10000 --country all --ssl all --anonymity all```
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 
 
