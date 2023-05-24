@@ -1,6 +1,6 @@
 # Proxy Scraper
 
-A script for scraping and saving proxies using the ProxyScrape API.
+A script for scraping and saving proxies using the <href>ProxyScrape API</href>.
 
 ## Usage
 
